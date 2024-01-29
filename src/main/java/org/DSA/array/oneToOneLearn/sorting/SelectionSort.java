@@ -1,7 +1,9 @@
 package org.DSA.array.oneToOneLearn.sorting;
 
 
-// have to select a element from unsorted array and then put in sorted array
+/* have to select a element from unsorted array and then put in sorted array
+         ( basically devide(imagination)  the given array in two parts) */
+
 
 public class SelectionSort {
     public static void main(String[] args) {
