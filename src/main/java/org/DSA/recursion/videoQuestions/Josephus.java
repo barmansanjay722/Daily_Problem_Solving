@@ -1,6 +1,9 @@
 package org.DSA.recursion.videoQuestions;
 
 public class Josephus {
+
+    // Time complexity -> O(n)
+
     public static void main(String[] args) {
         System.out.println(josephus(5,3));
     }

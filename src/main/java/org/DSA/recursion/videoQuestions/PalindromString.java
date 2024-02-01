@@ -1,6 +1,9 @@
 package org.DSA.recursion.videoQuestions;
 
 public class PalindromString {
+
+    // Time complexity -> O(n)
+
     public static void main(String[] args) {
         System.out.println(isPalindrom("racecar"));
     }

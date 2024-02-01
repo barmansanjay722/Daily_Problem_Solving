@@ -1,6 +1,8 @@
 package org.DSA.recursion.videoQuestions;
 
 public class PrintSubSets {
+    // Time complexity -> O(2n)
+
     public static void main(String[] args) {
         printAllSubsets("abc");
     }
