@@ -23,7 +23,7 @@ public class Power_with_Module {
 
 
     // fast power
-    // Time compelexity -> O(log b)    (log mtlb hota h yato half half krte jana h yato double double)
+    // Time compelexity -> O(log b)    (log mtlb hota h yato half half krte jana h, yato double double)
 
     static double fastPower(double a, int b, int m) {
         if(b == 0) return 1;

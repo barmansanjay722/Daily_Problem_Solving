@@ -11,6 +11,6 @@ public class Matrix_Path {
         return metrixPath(n-1,m) + metrixPath(n,m-1);
 
 
-        // we are getting divided in two parts so the time complexity is O(2n)
+        // we are getting divided in two parts (tree grapth) so the time complexity is O(2n)
     }
 }
