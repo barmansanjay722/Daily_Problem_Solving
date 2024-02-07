@@ -1,4 +1,4 @@
-package org.DSA.array.oneToOneLearn.basicArray;
+package org.DSA.basic_JAVA.Arrays_Funcitons_Strings_2;
 
 public class TwoD_Array {
     public static void main(String[] args) {

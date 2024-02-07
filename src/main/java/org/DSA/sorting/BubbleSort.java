@@ -1,4 +1,4 @@
-package org.DSA.array.oneToOneLearn.sorting;
+package org.DSA.sorting;
 
 
 // time complexity O(n2)

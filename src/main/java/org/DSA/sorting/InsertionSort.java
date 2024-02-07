@@ -1,4 +1,4 @@
-package org.DSA.array.oneToOneLearn.sorting;
+package org.DSA.sorting;
 
 // insertion sort taking element from right side and then put it into left side by sorting order
 

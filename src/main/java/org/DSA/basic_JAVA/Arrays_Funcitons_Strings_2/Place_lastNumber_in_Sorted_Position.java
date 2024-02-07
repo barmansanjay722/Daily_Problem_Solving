@@ -1,4 +1,4 @@
-package org.DSA.array.oneToOneLearn.basicArray;
+package org.DSA.basic_JAVA.Arrays_Funcitons_Strings_2;
 
 public class Place_lastNumber_in_Sorted_Position {
     public static void main(String[] args) {
