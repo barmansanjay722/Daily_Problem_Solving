@@ -1,4 +1,4 @@
-package org.DSA.backtracking;
+package org.DSA.backtracking.videoQuestions;
 
 public class Rate_In_Maze {
     public static void main(String[] args) {

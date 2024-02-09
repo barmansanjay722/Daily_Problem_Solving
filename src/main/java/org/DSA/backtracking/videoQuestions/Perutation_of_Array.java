@@ -1,4 +1,4 @@
-package org.DSA.backtracking;
+package org.DSA.backtracking.videoQuestions;
 
 
 // important question like google, microsoft
