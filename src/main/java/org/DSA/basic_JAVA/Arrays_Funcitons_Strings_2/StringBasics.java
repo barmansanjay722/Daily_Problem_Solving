@@ -1,4 +1,4 @@
-package org.DSA.strings.videoQuestions;
+package org.DSA.basic_JAVA.Arrays_Funcitons_Strings_2;
 
 public class StringBasics {
     public static void main(String[] args) {

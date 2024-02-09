@@ -1,4 +1,4 @@
-package org.DSA.array.oneToOneLearn.sorting;
+package org.DSA.sorting;
 
 
 /* have to select a element from unsorted array and then put in sorted array
