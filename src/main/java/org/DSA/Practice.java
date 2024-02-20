@@ -1,24 +1,46 @@
 package org.DSA;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Practice {
     public static void main(String[] args) {
-        System.out.println(countOcurences("hello","hello world, hello universe"));
+
     }
 
-    static int countOcurences(String t, String s) {
-        return countOcurenceHelper(t,s,0);
+    public static List<List<String>> partition(String s)
+    {
+        List<List<String>> ans = new ArrayList<>();
+
+        return ans;
     }
 
-    static int countOcurenceHelper(String t, String s, int i) {
-        if(i > s.length() - t.length()) {
-            return 0;
+    static void partitionHelper(String s, int index, List<List<String>> ans, List<String> cur) {
+        if(index == s.length()) {
+            List<String> copyCur = new ArrayList<>(cur);
+            ans.add(copyCur);
+            return;
         }
 
-        int countAppearNUbmer = countOcurenceHelper(t, s, i+1);
-        boolean isCountapearNumber = s.substring(i, i+t.length()).equals(t);
+        for(int i=index;i<s.length();i++) {
+            if(isPalindrome(s, index, i)) {
+                cur.add(s.substring(index,i+1));
+                partitionHelper(s, index+1, ans, cur);
+            }
+        }
 
-        if(isCountapearNumber) return countAppearNUbmer + 1;
-        else
-            return countAppearNUbmer;
     }
+
+
+    static boolean isPalindrome(String s, int l, int r) {
+        while (l <= r) {
+            if(s.charAt(l) != s.charAt(r))
+                return false;
+
+            l++;
+            r--;
+        }
+        return true;
+    }
+
 }
