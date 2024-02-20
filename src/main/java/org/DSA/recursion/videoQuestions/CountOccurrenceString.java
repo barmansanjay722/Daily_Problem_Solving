@@ -7,7 +7,7 @@ public class CountOccurrenceString {
 
 
     public static void main(String[] args) {
-        System.out.println(countOcurences("aba","ababbabac"));
+        System.out.println(countOcurences("aba","ababab"));
     }
 
     static int countOcurences(String t, String s) {
