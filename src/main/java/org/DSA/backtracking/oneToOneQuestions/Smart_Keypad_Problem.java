@@ -35,7 +35,7 @@ public class Smart_Keypad_Problem {
 
     static void smartKeypadHelper(String input, int index, List<String> ans, String a[], String cur) {
 
-        if(index == input.length()) {
+        if (index == input.length()) {
             ans.add(cur);
             return;
         }
