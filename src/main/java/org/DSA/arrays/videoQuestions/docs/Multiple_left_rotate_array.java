@@ -41,7 +41,8 @@ public class Multiple_left_rotate_array {
         }
 
         for(int i=0;i<m;i++) {
-            int offset = (b[i]) % n;
+            int offset = (b[i]) % n
+                    ;
             for(int j=0;j<n;j++) {
                 ans[i][j] = temp[j+offset];
             }
