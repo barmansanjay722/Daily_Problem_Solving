@@ -1,4 +1,4 @@
-package org.DSA.arrays.videoQuestions.docs;
+package org.DSA.arrays.videoQuestions;
 
 import java.util.Arrays;
 

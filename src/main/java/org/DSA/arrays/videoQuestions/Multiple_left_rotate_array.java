@@ -1,4 +1,4 @@
-package org.DSA.arrays.videoQuestions.docs;
+package org.DSA.arrays.videoQuestions;
 
 public class Multiple_left_rotate_array {
     public static void main(String[] args) {
