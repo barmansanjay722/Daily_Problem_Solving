@@ -14,7 +14,7 @@ public class Minimum_sum_subarray {
         int r = 0;
         int curSum = 0;
         int minLength = Integer.MAX_VALUE;
-        int x = -1, y = -1;
+//        int x = -1, y = -1;
 
         while (r < n) {
             curSum += a[r];
