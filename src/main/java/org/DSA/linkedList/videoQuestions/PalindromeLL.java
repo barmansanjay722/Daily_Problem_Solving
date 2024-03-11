@@ -8,13 +8,8 @@ public class PalindromeLL {
         Node n4 = new Node<>(1);
 
         head.next = n1;
-        n1.prev = head;
-
         n1.next = n3;
-        n3.prev = n1;
-
         n3.next = n4;
-        n4.prev = n3;
 
         printLinkedList(head);
         System.out.println(isLLPalindrome(head));
